@@ -5,8 +5,11 @@ html {
 }
 body {
   margin: 0;
+<<<<<<< HEAD
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+=======
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
 }
 article,
 aside,
@@ -124,6 +127,7 @@ button,
 select {
   text-transform: none;
 }
+<<<<<<< HEAD
 [type="reset"],
 [type="submit"],
 button,
@@ -133,13 +137,30 @@ html [type="button"] {
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner,
+=======
+[type='reset'],
+[type='submit'],
+button,
+html [type='button'] {
+  -webkit-appearance: button;
+}
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner,
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
 button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
+<<<<<<< HEAD
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring,
+=======
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring,
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
@@ -159,6 +180,7 @@ legend {
 textarea {
   overflow: auto;
 }
+<<<<<<< HEAD
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -174,6 +196,23 @@ textarea {
 }
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
+=======
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
   -webkit-appearance: none;
 }
 ::-webkit-input-placeholder {
@@ -204,10 +243,17 @@ body {
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
+<<<<<<< HEAD
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+=======
+  -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
 }
 img {
   max-width: 100%;
@@ -400,6 +446,13 @@ pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+<<<<<<< HEAD
+=======
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
   margin-bottom: 1.45rem;
   font-size: 0.85rem;
   line-height: 1.42;
@@ -571,10 +624,17 @@ td,
 th {
   text-align: left;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+<<<<<<< HEAD
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
+=======
+  font-feature-settings: 'tnum';
+  -moz-font-feature-settings: 'tnum';
+  -ms-font-feature-settings: 'tnum';
+  -webkit-font-feature-settings: 'tnum';
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
   padding-left: 0.96667rem;
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
@@ -592,8 +652,13 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
+<<<<<<< HEAD
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
+=======
+  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono',
+    'Liberation Mono', Menlo, Courier, monospace;
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -607,13 +672,21 @@ code:after,
 tt:before,
 tt:after {
   letter-spacing: -0.2em;
+<<<<<<< HEAD
   content: " ";
+=======
+  content: ' ';
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
 }
 pre code:before,
 pre code:after,
 pre tt:before,
 pre tt:after {
+<<<<<<< HEAD
   content: "";
+=======
+  content: '';
+>>>>>>> 67e1ffaa0a24cd549894bf7c48ae2eafbc43281e
 }
 @media only screen and (max-width: 480px) {
   html {
