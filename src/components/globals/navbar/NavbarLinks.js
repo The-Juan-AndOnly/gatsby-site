@@ -57,12 +57,25 @@ const LinkWrapper = styled.ul`
     text-decoration: none;
     text-transform: capitalize;
     padding: 0.5rem 1rem;
-    color: ${ styles.colors.mainBlack };
+    color: ${ styles.colors.mainGrey };
+    font-weight: 700;
+    ${ styles.transDefault };
+    &:hover {
+      background: ${ styles.colors.mainGrey };
+      color: ${ styles.colors.mainYellow };
+      padding: 0.5rem 1rem 0.5rem 1.3rem;
+    }
   }
-
-  .nav-link:hover {
-    background: ${ styles.colors.mainGrey };
-    color: ${ styles.colors.mainYellow };
-    padding: 0.5rem 1.25rem;
+  height: ${ props => (props.open ? '152px' : '0px') };
+  overflow: hidden;
+  ${ styles.transObject({}) };
+  @media (min-width: 768px) {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    .nav-link:hover {
+      background: ${ styles.colors.mainWhite };
+      padding: 0.5rem 1rem;
+    }
   }
 `

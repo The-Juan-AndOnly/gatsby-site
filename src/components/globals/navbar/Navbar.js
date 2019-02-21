@@ -29,7 +29,7 @@ class Navbar extends Component {
 const NavWrapper = styled.nav`
   @media (min-width: 768px) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 `
