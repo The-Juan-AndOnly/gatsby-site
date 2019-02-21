@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['standard'],
+  // extends: ['standard'],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   plugins: ['standard', 'react'],
   rules: {
     'no-var': 'error', // optional, recommended when using es6+
