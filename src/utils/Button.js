@@ -22,4 +22,10 @@ const BannerButton = styled.button`
   }
 `
 
-export { BannerButton }
+const SectionButton = styled(BannerButton)`
+  color: ${ styles.colors.mainBlack };
+  border: 2px solid ${ styles.colors.mainBlack };
+  font-size: 1.25rem;
+`
+
+export { BannerButton, SectionButton }
