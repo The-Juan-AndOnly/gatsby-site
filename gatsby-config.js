@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable max-len */
 module.exports = {
   siteMetadata: {
@@ -13,6 +14,12 @@ module.exports = {
         name: `images`,
 
         path: `${ __dirname }/src/images`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`PT Serif`, `Roboto`]
       }
     },
     {
