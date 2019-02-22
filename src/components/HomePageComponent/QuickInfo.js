@@ -10,10 +10,13 @@ class QuickInfo extends Component {
         <Title message="Hello Yo Momma" title="Yo Momma so Ugly" />
         <QuickInfoWrapper>
           <p className="text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
-            praesentium ducimus soluta? Dolore, molestiae! Beatae ducimus eos
-            nulla alias eligendi, dolor ipsam numquam. Eos, sapiente quo modi
-            minima deserunt est!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            ducimus error explicabo quas ad dolor, a perferendis repellat
+            necessitatibus culpa ea tempora voluptatum quasi unde sed quam
+            laudantium numquam illum cum quaerat. Saepe cumque nulla iusto quia
+            amet possimus expedita magnam est facilis eveniet, officiis
+            laboriosam, ex veritatis fugiat ullam quam minima sit deserunt, eius
+            totam! Suscipit earum officiis possimus.
           </p>
           <Link to="/about/" style={{ textDecoration: 'none' }}>
             <SectionButton>About</SectionButton>

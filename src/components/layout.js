@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 // import { StaticQuery, graphql } from 'gatsby'
 import { createGlobalStyle } from 'styled-components'
 import Navbar from '../components/globals/navbar'
+import Footer from './globals/Footer'
 // Destructure children out of props
 const Layout = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Navbar />
       {children}
+      <Footer />
     </Fragment>
   )
 }

@@ -19,6 +19,7 @@ const TitleWrapper = styled.div`
   .message {
     letter-spacing: 0.2rem;
     ${ styles.textSlanted };
+    color: ${ styles.colors.mainYellow };
     font-size: 2rem;
   }
 
