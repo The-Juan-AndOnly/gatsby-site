@@ -6,6 +6,7 @@ import { HomeHeader, Banner, BannerButton } from '../utils'
 import img from '../images/cheesesteak1.jpg'
 import QuickInfo from '../components/HomePageComponent/QuickInfo'
 import Gallery from '../components/HomePageComponent/Gallery-1'
+import Menu from '../components/HomePageComponent/Menu'
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Layout>
 )
 
