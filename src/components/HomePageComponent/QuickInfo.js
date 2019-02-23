@@ -7,16 +7,15 @@ class QuickInfo extends Component {
   render () {
     return (
       <Section>
-        <Title message="Hello Yo Momma" title="Yo Momma so Ugly" />
+        <Title
+          message="An Allentown Original"
+          title="A Lehigh Valley Tradition"
+        />
         <QuickInfoWrapper>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            ducimus error explicabo quas ad dolor, a perferendis repellat
-            necessitatibus culpa ea tempora voluptatum quasi unde sed quam
-            laudantium numquam illum cum quaerat. Saepe cumque nulla iusto quia
-            amet possimus expedita magnam est facilis eveniet, officiis
-            laboriosam, ex veritatis fugiat ullam quam minima sit deserunt, eius
-            totam! Suscipit earum officiis possimus.
+            Food trucks, catering, and more! A Lehigh Valley, Pennsylvania
+            tradition since 1957, Vince&rsquo;s is available for all your
+            catering and mobile food solutions!!
           </p>
           <Link to="/about/" style={{ textDecoration: 'none' }}>
             <SectionButton>About</SectionButton>
