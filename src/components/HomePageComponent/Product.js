@@ -2,9 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { styles } from '../../utils'
 import Img from 'gatsby-image'
+import PropTypes from 'prop-types'
 
 const Product = ({ product }) => {
-  const { name, price } = product
+  const { name, price, ingredients } = product
   const { fixed } = product.image
 
   return (
@@ -15,9 +16,14 @@ const Product = ({ product }) => {
           <h3 className="name">{name}</h3>
           <h3 className="price">{price}</h3>
         </div>
+        <p className="info">{ingredients}</p>
       </div>
     </ProductWrapper>
   )
+}
+
+Product.propTypes = {
+  product: PropTypes.object
 }
 
 const ProductWrapper = styled.div`
@@ -40,6 +46,13 @@ const ProductWrapper = styled.div`
   .price {
     color: ${ styles.colors.mainYellow };
     margin-top: 0.5rem;
+  }
+
+  .info {
+    margin-top: 0.5rem;
+    word-spacing: 0.2rem;
+    text-transform: capitalize;
+    font-size: 0.85rem;
   }
 
   @media (min-width: 576px) {

@@ -15,6 +15,7 @@ const PRODUCTS = graphql`
           name
           price
           id
+          ingredients
           image {
             fixed(width: 150, height: 150) {
               ...GatsbyContentfulFixed_tracedSVG
