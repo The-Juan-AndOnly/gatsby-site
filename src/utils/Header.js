@@ -14,7 +14,7 @@ const PageHeader = ({ img, children }) => {
 const IndexHeader = styled.header`
   min-height: calc(100vh - 90px);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(${ props => props.img }) no-repeat center/cover fixed;
+    url(${ props => props.img }) no-repeat center center/cover;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ const IndexHeader = styled.header`
 const DefaultHeader = styled(IndexHeader)`
   min-height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(${ props => props.img }) no-repeat center/cover fixed;
+    url(${ props => props.img }) no-repeat center center/cover fixed;
 `
 
 HomeHeader.defaultProps = {
