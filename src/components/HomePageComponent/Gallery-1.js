@@ -21,7 +21,6 @@ const GET_IMAGES = graphql`
     }
   }
 `
-
 const Gallery = () => {
   return (
     <StaticQuery

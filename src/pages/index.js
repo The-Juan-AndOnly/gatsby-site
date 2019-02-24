@@ -10,7 +10,7 @@ import Menu from '../components/HomePageComponent/Menu'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]} />
     <HomeHeader img={img}>
       <Banner title="Vince's" subTitle="Famous Cheesesteak">
         <BannerButton>menu</BannerButton>
