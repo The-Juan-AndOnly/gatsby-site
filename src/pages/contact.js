@@ -6,7 +6,10 @@ import contactImg from '../images/vincebanner.jpg'
 import SEO from '../components/seo'
 const ContactPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Contact"
+      keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]}
+    />
     <PageHeader img={contactImg}>
       <Banner title="Contact Us" />
     </PageHeader>

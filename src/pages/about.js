@@ -7,7 +7,7 @@ import aboutImg from '../images/vincebanner.jpg'
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About" keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]} />
     <PageHeader img={aboutImg}>
       <Banner title="About Us" />
     </PageHeader>

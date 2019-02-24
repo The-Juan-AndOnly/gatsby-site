@@ -23,7 +23,7 @@ const IndexHeader = styled.header`
 const DefaultHeader = styled(IndexHeader)`
   min-height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(${ props => props.img }) no-repeat center center/cover fixed;
+    url(${ props => props.img }) no-repeat center center/cover;
 `
 
 HomeHeader.defaultProps = {

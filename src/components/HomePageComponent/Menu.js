@@ -29,7 +29,7 @@ const PRODUCTS = graphql`
 
 const Menu = () => {
   return (
-    <Section>
+    <Section id="menu">
       <Title title="menu" message="popular items" />
       <ProductList>
         <StaticQuery

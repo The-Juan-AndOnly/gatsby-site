@@ -7,13 +7,16 @@ import img from '../images/cheesesteak1.jpg'
 import QuickInfo from '../components/HomePageComponent/QuickInfo'
 import Gallery from '../components/HomePageComponent/Gallery-1'
 import Menu from '../components/HomePageComponent/Menu'
+import { Link } from 'gatsby'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]} />
     <HomeHeader img={img}>
       <Banner title="Vince's" subTitle="Famous Cheesesteak">
-        <BannerButton>menu</BannerButton>
+        <Link to="#menu" style={{ textDecoration: 'none' }}>
+          <BannerButton>menu</BannerButton>
+        </Link>
       </Banner>
     </HomeHeader>
     <QuickInfo />

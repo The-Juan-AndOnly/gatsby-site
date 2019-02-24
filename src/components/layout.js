@@ -29,6 +29,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   
+html{
+  scroll-behavior: smooth;
+}
+
   body {
     font-family: 'Roboto', sans-serif;
     background: #fff;

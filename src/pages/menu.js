@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const MenuPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Menu" keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]} />
     <PageHeader img={menuImg}>
       <Banner title="Menu" />
     </PageHeader>
