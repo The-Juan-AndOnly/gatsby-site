@@ -22,7 +22,7 @@ const ContactForm = () => {
           </div>
           <div className="form-group">
             <label htmlFor="email">Email:</label>
-            <input type="text" name="email" id="email" />
+            <input type="email" name="email" id="email" />
           </div>
           <div className="form-group">
             <label htmlFor="phone">Phone Number:</label>

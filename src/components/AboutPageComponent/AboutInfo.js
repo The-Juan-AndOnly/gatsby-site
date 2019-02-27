@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Section, Title } from '../../utils/'
+import { Section, Title, styles } from '../../utils/'
 import styled from 'styled-components'
 
 class AboutInfo extends Component {
@@ -12,7 +12,7 @@ class AboutInfo extends Component {
         />
         <AboutInfoWrapper>
           <p className="text">
-            <span className="big-green-text">Since</span> 1957, the
+            <span className="big-yellow-text">Since</span> 1957, the
             Vince&rsquo;s family has worked to make our cheesesteaks, sausages,
             and other food concessions a popular choice in the Lehigh Valley and
             beyond. Today, we&rsquo;re blessed to be a six-decade,
@@ -24,7 +24,7 @@ class AboutInfo extends Component {
             as often as you give us the honor of your business.
           </p>
           <p className="text">
-            <span className="big-green-text">Over</span> the years, we&rsquo;ve
+            <span className="big-yellow-text">Over</span> the years, we&rsquo;ve
             connected with many customers through our concession stands and new
             concepts, including our Pennsylvania German brand, Das Wurst Haus, a
             specialty sausage destination at the annual Kutztown Folk Festival.
@@ -48,10 +48,11 @@ const AboutInfoWrapper = styled.div`
     margin: 2rem 0;
   }
 
-  .big-green-text {
-    color: green;
+  .big-yellow-text {
+    color: ${ styles.colors.mainYellow };
+    ${ styles.textSlanted };
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
   }
   @media (min-width: 768px) {
     width: 70%;
