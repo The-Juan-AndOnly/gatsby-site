@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Section, Title, SectionButton } from '../../utils/'
+import { Section, Title } from '../../utils/'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 
 class AboutInfo extends Component {
   render () {
