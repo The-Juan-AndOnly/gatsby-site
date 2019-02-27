@@ -13,9 +13,8 @@ const ContactForm = () => {
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          action="/thanks"
         >
-          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="bot-field" value="contact" />
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" id="name" />
