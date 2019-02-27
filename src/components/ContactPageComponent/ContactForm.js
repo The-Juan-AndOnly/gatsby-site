@@ -10,16 +10,15 @@ const ContactForm = () => {
         <form
           name="contact"
           method="POST"
-          netlify-honeypot="bot-field"
           data-netlify="true"
           id="contact-form"
         >
           <div className="form-group">
-            <label htmlFor="name">Name</label>{' '}
-            <input type="text" name="text" id="name" placeholder="Enter Name" />
+            <label htmlFor="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email</label>{' '}
+            <label htmlFor="email">Email:</label>
             <input
               type="email"
               name="email"
@@ -28,7 +27,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="phone">Phone Number</label>
+            <label htmlFor="phone">Phone Number:</label>
             <input
               type="text"
               name="phone"
@@ -37,7 +36,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Message:</label>
             <textarea
               type="text"
               name="message"
@@ -73,7 +72,8 @@ const FormWrapper = styled.div`
       background-color: #ccc;
       border: none;
       border-radius: 5px;
-      height: 50px;
+      height: 40px;
+      font-size: 0.9rem;
     }
     textarea {
       min-height: 150px;
