@@ -9,10 +9,11 @@ const ContactForm = () => {
       <FormWrapper>
         <form
           name="contact"
+          id="contact-form"
           method="POST"
           data-netlify="true"
-          id="contact-form"
         >
+          <input type="hidden" name="contact" value="contact" />
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" id="name" />
