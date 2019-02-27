@@ -10,7 +10,7 @@ const ContactForm = () => {
         <form
           name="contact"
           id="contact-form"
-          method="POST"
+          method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
@@ -21,7 +21,7 @@ const ContactForm = () => {
           </div>
           <div className="form-group">
             <label htmlFor="email">Email:</label>
-            <input type="email" name="email" id="email" />
+            <input type="text" name="email" id="email" />
           </div>
           <div className="form-group">
             <label htmlFor="phone">Phone Number:</label>
