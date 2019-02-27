@@ -1,15 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
-
+import ThanksPage from '../components/ContactPageComponent/ThanksPage'
 import SEO from '../components/seo'
-const ThanksPage = () => (
+const Thanks = () => (
   <Layout>
-    <SEO
-      title="Contact"
-      keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]}
-    />
-    <h1> Thank You</h1>
+    <SEO title="Thanks" keywords={[`Vince's`, `cheesesteak`, `Allentown,PA`]} />
+    <ThanksPage />
   </Layout>
 )
 
-export default ThanksPage
+export default Thanks
