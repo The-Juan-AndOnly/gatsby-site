@@ -12,7 +12,7 @@ const GET_IMAGES = graphql`
       edges {
         node {
           childImageSharp {
-            fluid(maxWidth: 2000) {
+            fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
@@ -34,7 +34,7 @@ const Gallery = () => {
                 return (
                   <div key={index} className={`item item-${ index + 1 }`}>
                     <Img fluid={node.childImageSharp.fluid} />
-                    <p className="info">Awesome Food</p>
+                    {/* <p className="info">Awesome Food</p> */}
                   </div>
                 )
               })}
