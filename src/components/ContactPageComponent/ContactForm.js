@@ -13,7 +13,7 @@ const ContactForm = () => {
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          action="/no-cache=1"
+          action="?no-cache=1"
         >
           <input type="hidden" name="bot-field" />
           <div className="form-group">
