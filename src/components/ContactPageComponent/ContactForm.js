@@ -67,6 +67,11 @@ const FormWrapper = styled.div`
       min-height: 150px;
     }
   }
+  @media (max-width: 768px) {
+    .form-group {
+      width: 80%;
+    }
+  }
 `
 
 export default ContactForm
