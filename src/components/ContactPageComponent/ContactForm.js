@@ -15,34 +15,19 @@ const ContactForm = () => {
         >
           <div className="form-group">
             <label htmlFor="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Enter Name" />
+            <input type="text" name="name" id="name" />
           </div>
           <div className="form-group">
             <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter Email"
-            />
+            <input type="email" name="email" id="email" />
           </div>
           <div className="form-group">
             <label htmlFor="phone">Phone Number:</label>
-            <input
-              type="text"
-              name="phone"
-              id="phone"
-              placeholder="Enter Phone Number"
-            />
+            <input type="text" name="phone" id="phone" />
           </div>
           <div className="form-group">
             <label htmlFor="message">Message:</label>
-            <textarea
-              type="text"
-              name="message"
-              id="message"
-              placeholder="Enter Message"
-            />
+            <textarea name="message" id="message" />
           </div>
           <SectionButton type="submit">Send</SectionButton>
         </form>
