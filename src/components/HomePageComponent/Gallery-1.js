@@ -12,7 +12,7 @@ const GET_IMAGES = graphql`
       edges {
         node {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
@@ -28,7 +28,7 @@ const Gallery = () => {
       render={data => {
         const images = data.getImages.edges
         return (
-          <Section>
+          <Section style={{ maxWidth: '1200px' }}>
             <GalleryWrapper>
               {images.map(({ node }, index) => {
                 return (
@@ -53,10 +53,11 @@ const GalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 1rem;
-  .item {
-    position: relative;
+ 
+ .item {
+   
   }
-
+/*
   .info {
     position: absolute;
     top: 0;
@@ -65,7 +66,7 @@ const GalleryWrapper = styled.div`
     padding: 0.1rem 0.25rem;
     letter-spacing: 0.1rem;
     border-radius: 5px;
-  }
+  } */
 
   @media (min-width: 576px) {
     grid-template-columns: 1fr 1fr;
@@ -77,13 +78,15 @@ const GalleryWrapper = styled.div`
   }
   @media (min-width: 992px) {
     grid-template-areas:
-      'one one two two'
-      'one one three three';
+      'one one two'
+      'one one three';
     .item-1 {
       grid-area: one;
+     
     }
     .item-2 {
       grid-area: two;
+     
     }
     .item-3 {
       grid-area: three;
